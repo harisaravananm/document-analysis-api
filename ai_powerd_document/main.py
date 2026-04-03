@@ -226,7 +226,7 @@ footer span{color:var(--teal)}
 
   <section class="hero">
     <h1>Intelligent<br><span class="accent">Document Analysis</span></h1>
-    <p>Upload any document and extract structured insights — summaries, entities, and sentiment — powered by Gemini 2.0 Flash.</p>
+    <p>Upload any document and extract structured insights — summaries, entities, and sentiment — powered by Gemini 1.5 Flash.</p>
     <div class="format-pills">
       <div class="pill">📄 PDF</div>
       <div class="pill">📝 DOCX</div>
@@ -307,7 +307,7 @@ footer span{color:var(--teal)}
     </div>
   </section>
 
-  <footer>Built with <span>Gemini 2.0 Flash</span> &middot; FastAPI &middot; Tesseract OCR &middot; Track 2 Submission</footer>
+  <footer>Built with <span>Gemini 1.5 Flash</span> &middot; FastAPI &middot; Tesseract OCR &middot; Track 2 Submission</footer>
 </div>
 
 <script>
