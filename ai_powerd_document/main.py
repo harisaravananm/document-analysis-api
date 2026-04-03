@@ -90,7 +90,7 @@ Rules: entities use [] if none found. sentiment is exactly Positive, Neutral, or
 
 def analyze(text, filename):
     content = text[:6000]
-    resp = client.models.generate_content(model="gemini-2.0-flash", contents=PROMPT.format(filename=filename, content=content))
+    resp = client.models.generate_content(model="gemini-1.5-flash", contents=PROMPT.format(filename=filename, content=content))
     raw = resp.text.strip()
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw).strip()
