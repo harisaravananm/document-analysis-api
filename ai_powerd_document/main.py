@@ -352,7 +352,7 @@ async function analyze(){
   document.getElementById('errorBox').classList.remove('show');
   try{
     const ab=await selectedFile.arrayBuffer();
-    const b64=btoa(String.fromCharCode(...new Uint8Array(ab)));
+    const bytes=new Uint8Array(ab);let b64='';for(let i=0;i<bytes.length;i+=8192){b64+=String.fromCharCode(...bytes.subarray(i,i+8192));}b64=btoa(b64);
     const resp=await fetch('/api/document-analyze',{
       method:'POST',
       headers:{'Content-Type':'application/json','x-api-key':apiKey},
