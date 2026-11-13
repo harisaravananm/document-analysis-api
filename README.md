@@ -1,6 +1,8 @@
-﻿# Document Analysis API
+# Document Analysis API
 
-[![Last commit](https://img.shields.io/github/last-commit/harisaravananm/document-analysis-api?style=for-the-badge)](https://github.com/harisaravananm/document-analysis-api/commits/main)
+<!-- tech-version-badges -->
+![FastAPI 0.115.0](https://img.shields.io/badge/FastAPI-0.115.0-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Python 3.10%2B](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Google GenAI%201.10.0](https://img.shields.io/badge/Google-GenAI%201.10.0-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white) ![PyMuPDF 1.24.11](https://img.shields.io/badge/PyMuPDF-1.24.11-3776AB?style=for-the-badge) ![Tesseract OCR](https://img.shields.io/badge/Tesseract-OCR-5A5A5A?style=for-the-badge)
+<!-- /tech-version-badges -->
 
 An AI-powered FastAPI service that analyzes PDF, DOCX, and image documents using Google Gemini. It extracts entities, creates summaries, and classifies sentiment.
 
